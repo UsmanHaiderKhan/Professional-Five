@@ -1,4 +1,4 @@
-﻿/*================================= 
+﻿/*=================================
         Font-Family's Start
   =================================*/
 /*
@@ -10,7 +10,7 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Raleway', sans-serif;
 
 */
-/*================================= 
+/*=================================
         Font-Family's End
   =================================*/
 
@@ -24,7 +24,7 @@ html, body {
 }
 
 
-/*================================= 
+/*=================================
     Navbar Section Styling
   =================================*/
 .full-bg-banner {
@@ -77,18 +77,15 @@ html, body {
 }
 
 #home .navbar {
-    padding: 0 0 17px 0;
+    padding: 22px 0px 17px 0px;
 }
 
-#home .nav-padding {
-    padding: 20px 36px 0px 90px;
-}
 
 #home .active .nav-link {
     position: relative;
     color: #212121 !important;
     text-transform: uppercase !important;
-    font-size: 16px !important;
+    font-size: 18px !important;
     font-weight: bold !important;
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -105,7 +102,7 @@ html, body {
 
 #home .navbar-nav .nav-link {
     color: #212121;
-    font-size: 16px;
+    font-size: 19px;
     padding: 8px 13px 5px 13px;
     text-transform: uppercase;
     font-weight: 400;
@@ -141,7 +138,7 @@ html, body {
     font-size: 24px;
     color: #212121;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
 }
@@ -160,7 +157,7 @@ html, body {
     border-width: 2px;
     border-color: rgb(33, 33, 33);
     border-style: solid;
-    font-weight: 400;
+    font-weight: 600;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -180,7 +177,7 @@ html, body {
     border-width: 2px;
     border-color: rgb(33, 33, 33);
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 600;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -220,7 +217,7 @@ html, body {
     margin-left: 0px;
     color: #ffffff;
 }
-/*================================= 
+/*=================================
       Service Section Styling
   =================================*/
 .service-text {
@@ -239,7 +236,7 @@ html, body {
 }
 
 .service-desc {
-    font-size: 16px;
+    font-size: 15px;
     color: #616161;
     font-weight: 500;
     font-family: 'Raleway', sans-serif;
@@ -254,7 +251,7 @@ html, body {
     margin-left: 0px;
     color: #222222;
 }
-/*================================= 
+/*=================================
        History Section Styling
   =================================*/
 #history {
@@ -281,6 +278,7 @@ html, body {
 .background-desc {
     font-size: 17px;
     color: #666666;
+    width: 80%;
     font-weight: 400;
     font-family: 'Open Sans', sans-serif;
 }
@@ -314,7 +312,7 @@ html, body {
     font-size: 17px;
     font-style: normal;
 }
-/*================================= 
+/*=================================
        Gallery Section Styling
   =================================*/
 .gallery-padding {
@@ -398,7 +396,7 @@ html, body {
         text-decoration: none;
         color: #ffffff;
     }
-/*================================= 
+/*=================================
          Team Section Styling
   =================================*/
 
@@ -448,12 +446,12 @@ html, body {
     #team .img-radius {
         border-radius: 43px;
     }
-/*================================= 
+/*=================================
       Contact Section Styling
   =================================*/
 #contact {
     background: #272a2c;
-    padding: 100px;
+    padding: 100px 0;
 }
 
     #contact .logo-desc {
@@ -592,7 +590,7 @@ html, body {
     border: none;
     cursor: pointer;
 }
-/*================================= 
+/*=================================
           Read More Styling
   =================================*/
 .comments-space {
@@ -1145,7 +1143,7 @@ button:focus {
     border-width: 2px;
     border-color: rgb(51, 51, 51);
     border-style: solid;
-    box-shadow: 0px 10px 24px 0px rgba(0, 0, 0, 0.18);
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.1);
     font-weight: 400;
     font-family: 'Lato', sans-serif;
 }
@@ -1200,7 +1198,10 @@ button:focus {
 
 
 /*================ Media Query ===============*/
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1550px) {
+    .text {
+        left: 28%;
+    }
 }
 
 @media screen and (max-width: 1367px) {
@@ -1589,7 +1590,7 @@ button:focus {
         }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
     #home .active .nav-link::after {
         content: '';
         left: 48%;
@@ -1703,18 +1704,15 @@ button:focus {
         margin-top: 30px;
     }
 
-    #contact {
-        padding: 67px;
-    }
 
-        #contact .media-footer-mt {
-            margin-top: 40px;
-        }
+    #contact .media-footer-mt {
+        margin-top: 40px;
+    }
 }
 
-@media screen and (max-width: 414px) {
-    #home .nav-padding {
-        padding: 20px 16px 0px 16px;
+@media screen and (max-width: 415px) {
+    #home .navbar {
+        padding: 22px 15px 17px 15px;
     }
 
     #home .content-setting {
@@ -1810,14 +1808,14 @@ button:focus {
 @media screen and (max-width: 411px) {
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
     .text {
         font-size: 18px;
         padding: 48px;
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 361px) {
     .text {
         font-size: 18px;
         padding: 45px;
@@ -1832,7 +1830,7 @@ button:focus {
 @media screen and (max-width: 1024px) and (orientation: landscape) {
 }
 
-@media screen and (max-width: 823px) and (orientation: landscape) {
+@media screen and (max-width: 824px) and (orientation: landscape) {
     #home .content-setting {
         padding: 180px 0;
     }
@@ -2058,7 +2056,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 731px) and (orientation: landscape) {
+@media screen and (max-width: 732px) and (orientation: landscape) {
     #home .main-banner-text {
         letter-spacing: 0px;
         font-size: 21px;
